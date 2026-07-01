@@ -1,7 +1,6 @@
 import openai
 
-openai.api_key = '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'
-
+openai.api_key = ''
 def generate_blog(paragraph_topic):
   response = openai.completions.create(
     model = 'gpt-3.5-turbo-instruct',
